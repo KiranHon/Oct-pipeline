@@ -4,7 +4,7 @@ stages {
          stage {'print a message'}
 		 {steps { sh 'echo job-is-building' }}
 		 
-		 stage {'stage-print-second-message}
+		 stage {'stage-print-second-message'}
 		 {steps {sh 'echo package-is-deploying'}}
 		 
 		 stage {'stage-final-stage'}
