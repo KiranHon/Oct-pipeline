@@ -1,7 +1,7 @@
 pipeline {
 agent any
 stages {
-         stage ('print a message')
+         stage {'print a message'}
 		 {steps { sh 'echo job-is-building' }}
 		 
 		 stage {'stage-print-second-message}
