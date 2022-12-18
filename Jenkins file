@@ -10,6 +10,5 @@ stages {
 		 stage {'stage-final-stage'}
 		 {steps { sh 'echo deploy-to-prod'}}
 		 
-		 
 }
 }		 
